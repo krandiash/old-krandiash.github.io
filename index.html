@@ -96,40 +96,40 @@
         </div>
     </body>
     <script>
-    var or = document.querySelector('.ongoing-research'),
-        pb = document.querySelector('.publications'),
+    // var or = document.querySelector('.ongoing-research'),
+    var pb = document.querySelector('.publications'),
         ns = document.querySelector('.news');
-    var ort = document.querySelector('.or-tab'),
-        pbt = document.querySelector('.pb-tab'),
+    // var ort = document.querySelector('.or-tab'),
+    var pbt = document.querySelector('.pb-tab'),
         nst = document.querySelector('.ns-tab');
-    or.style.display = 'none';
+    // or.style.display = 'none';
     pb.style.display = 'none';
     function switchTab(tab) {
         switch (tab) {
             case 'ns':
                 ns.style.display = 'block';
                 nst.className = 'tab ns-tab active';
-                or.style.display = 'none';
-                ort.className = 'tab or-tab';
+                // or.style.display = 'none';
+                // ort.className = 'tab or-tab';
                 pb.style.display = 'none';
                 pbt.className = 'tab pb-tab';
                 break;
             case 'pb':
                 ns.style.display = 'none';
                 nst.className = 'tab ns-tab';
-                or.style.display = 'none';
-                ort.className = 'tab or-tab';
+                // or.style.display = 'none';
+                // ort.className = 'tab or-tab';
                 pb.style.display = 'block';
                 pbt.className = 'tab pb-tab active';
                 break;
-            case 'or':
-                ns.style.display = 'none';
-                nst.className = 'tab ns-tab';
-                or.style.display = 'block';
-                ort.className = 'tab or-tab active';
-                pb.style.display = 'none';
-                pbt.className = 'tab pb-tab';
-                break;
+            // case 'or':
+            //     ns.style.display = 'none';
+            //     nst.className = 'tab ns-tab';
+            //     or.style.display = 'block';
+            //     ort.className = 'tab or-tab active';
+            //     pb.style.display = 'none';
+            //     pbt.className = 'tab pb-tab';
+            //     break;
         }
     }
     </script>
