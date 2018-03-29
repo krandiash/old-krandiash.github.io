@@ -84,7 +84,10 @@ section {
 
 .pub-type {
   height:28px;  
-  width: 140px;
+  width: 100px;
+  border-radius: 2px;
+  border: solid rgba(0, 0, 0, 0.1);
+  border-width: 0.2px 0px 0.2px 0.2px;
   margin-top: -1rem;
   margin-bottom: 1.5rem;
 }
