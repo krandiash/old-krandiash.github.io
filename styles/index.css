@@ -1,16 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Roboto+Slab");
+@import url("http://fonts.googleapis.com/css?family=Lato:300,350,400,700");
+
 body {
   -webkit-font-smoothing: antialiased;
   line-height: 2em;
-  font-family: 'Roboto';
+  font-family: 'Lato';
   color: #555; }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500; }
 
 .container {
-  margin-top: 20vmin;
-  margin-bottom: 20vmin; }
+  margin-top: 10vmin;
+  margin-bottom: 10vmin; }
 
 .drawer {
   float: left;
@@ -30,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 3.2rem; }
 
 .content {
-  font-size: 1.8rem; }
+  font-size: 1.6rem; }
 
 p a, ul a {
   text-decoration: none;
@@ -73,21 +75,32 @@ section {
 .pub {
   box-sizing: border-box;
   display: inline-block;
-  border-radius: 4px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.1);
-  padding: 2rem;
+  border-radius: 3px;
+  border: solid rgba(0, 0, 0, 0.1);
+  border-width: 0.5px 12px 0.5px 0.5px;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
   width: 100%; }
 
+.pub-type {
+  height:28px;  
+  width: 15%;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+}
+
 .pub:not(:last-child) {
-  margin-bottom: 3rem; }
+  margin-bottom: 1rem; }
+
+a { color: inherit; text-decoration: none;}
 
 i.rarr {
   transition: padding .2s ease;
   font-style: normal; }
 
 .pub-title {
-  color: inherit; }
+  color: inherit; 
+  font-size: 1.5rem;}
   .pub-title:hover {
     color: #000;
     cursor: pointer; }
@@ -99,9 +112,10 @@ i.rarr {
   margin: 0.5em 0; }
 
 .pub-meta {
-  color: #999;
+  color: #666;
   font-size: 1.3rem;
-  text-transform: uppercase; }
+  line-height: 190%;
+  }
 
 .pub-authors {
   font-size: 1.4rem;

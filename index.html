@@ -2,13 +2,16 @@
 <html>
     <head>
         <title>Karan Goel &middot; AI Researcher &amp; Grad Student</title>
-        <link rel="stylesheet" href="/styles/normalize.css" type="text/css">
-        <link rel="stylesheet" href="/styles/carpal.css" type="text/css">
-        <link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
-        <link rel="stylesheet" href="/styles/index.css" type="text/css">
+        <link rel="stylesheet" href="styles/normalize.css" type="text/css">
+        <link rel="stylesheet" href="styles/carpal.css" type="text/css">
+        <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="styles/index.css" type="text/css">
         <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
     <body>
+        <!-- <div style="margin-top: 5vmin; margin-bottom: -10vmin;">
+        <h1><center>Karan Goel</center></h1>    
+        </div> -->
         <div class="container">
             <div class="row">
                 <div class="drawer three columns">
@@ -23,17 +26,16 @@
 
                 <div class="content eight columns offset-by-one">
                     <p>
-                        I'm currently a Master's student in the Department of Machine Learning at Carnegie Mellon University, and 
-                        a Research Assistant in the School of Computer Science with <a href="http://www.cs.cmu.edu/~ebrun/">Prof. Emma Brunskill</a>.
-                        In the past, I spent 5 amazing years in the Indian Institute of Technology at Delhi (IIT-D)
-                        where I majored in Electrical Engineering. At IIT-D I was supervised by
-                        <a href="http://homes.cs.washington.edu/~mausam/">Prof. Mausam</a>, with whom I worked on creating an end-to-end
-                        solution for managing tasks on micro-task crowdsourcing platforms. I also had the opportunity to work with
-                        <a href="http://web.engr.illinois.edu/~adityagp/">Prof. Aditya Parameswaran</a> and <a href="http://sundaram.cs.illinois.edu/">Prof. Hari Sundaram</a> at the University of Illinois at Urbana-Champaign. We
-                        developed crowd-powered algorithms for clustering complicated data, as well as for visual recognition tasks. 
+                        I'm a Master's student in the Department of Machine Learning at Carnegie Mellon University, and 
+                        a Visiting Research Assistant in the AI Lab at Stanford with <a href="https://cs.stanford.edu/people/ebrun/">Prof. Emma Brunskill</a>. 
                     </p>
                     <p style="margin-top: 2rem;">
-                        I'm currently exploring problems in Reinforcement Learning (RL) as well as thinking about how we can apply RL and Machine Learning to improve Intelligent Tutoring Systems. I'm also really interested in engendering progress in AI that is inclusive in terms of its economic effects, as well as minimizing negative impact from automation.
+                        In the past, I spent 5 amazing years at the Indian Institute of Technology - Delhi (IITD)
+                        where I majored in EECS. At IITD I got interested in AI research while working with <a href="http://homes.cs.washington.edu/~mausam/">Prof. Mausam</a>. I also great enjoyed working with
+                        <a href="http://web.engr.illinois.edu/~adityagp/">Prof. Aditya Parameswaran</a> and <a href="http://sundaram.cs.illinois.edu/">Prof. Hari Sundaram</a> at the University of Illinois at Urbana-Champaign.
+                    </p>
+                    <p style="margin-top: 2rem;">
+                        My focus is on building autonomous agents that learn interpretable behaviors through efficient interaction with the world. I think about these questions mainly through the lens of Reinforcement Learning, but I'm always looking for inspiration from other areas of Artificial Intelligence. Another area I'm passionate about is applying AI to solve real-world problems, and I work on building algorithms and systems for improving intelligent tutoring systems.
                     </p>
                     <div class="social">
                         <a href="https://linkedin.com/in/krandiash" class="linkedin" title="LinkedIn"><i class="fa fa-linkedin"></i></a><a href="https://twitter.com/krandiash" class="twitter" title="Twitter"><i class="fa fa-twitter"></i></a><a href="https://open.spotify.com/user/krandiash" class="spotify" title="Spotify"><i class="fa fa-spotify"></i></a>
@@ -43,54 +45,78 @@
                         <span class="tab ns-tab active" onclick="switchTab('ns')">News</span>
                         <!-- <span class="tab or-tab" onclick="switchTab('or')">Ongoing Research</span> -->
                         <span class="tab pb-tab" onclick="switchTab('pb')">Publications</span>
+                        <!-- <span class="tab pr-tab" onclick="switchTab('pr')">Preprints</span> -->
                     </div>
 
                     <hr>
 
                     <section class="news">
                         <ul>
-                            <li>Submitted my first paper at CMU with Prof. Emma Brunskill and Christoph Dann!</li>
-                            <li>Excited about finishing my first semester at CMU!</li>
+                            <li> [March '18] I've decided to take Stanford's offer and I'll be joining the Stanford CS PhD program this fall!</li>
                         </ul>
                     </section>
 
-                    <!-- <section class="ongoing-research">
-                        <div class="pub">
-                            <span class="pub-title">More Efficient Tutoring <i class="rarr">&rarr;</i></span>
-                            <span class="pub-meta">Jul '16 - Ongoing</span>
-                            <span class="pub-description">Some description</span>
-                        </div>
-                        <div class="pub">
-                            <span class="pub-title">Sample Efficient Policy Search for Optimal Stopping Domains <i class="rarr">&rarr;</i></span>
-                            <span class="pub-meta">Jul '16 - Ongoing</span>
-                            <span class="pub-description">Some description</span>
-                        </div>
-                    </section> -->
-
                     <section class="publications">
-                        <div class="pub">
-                            <span class="pub-title">Sample Efficient Policy Search for Optimal Stopping Domains <i class="rarr">&rarr;</i></span>
-                            <span class="pub-meta"><a href="https://arxiv.org/abs/1702.06238">Arxiv Preprint</a></span>
-                            <span class="pub-description">Learning to act efficiently (finite sample complexity) in optimal stopping problems under a given policy class.</span>
-                            <span class="pub-authors">Karan Goel, Christoph Dann and Emma Brunskill</span>
+                        <div style="width: 100%;">
+                        <div class="pub-type" style="float:left; margin-right: 0%; background:rgba(244, 126, 156, 0.2);">
+                            <center style="font-size: 1.4rem; font-weight: 300; ">Conference</center>
                         </div>
-                        <div class="pub">
-                            <span class="pub-title">Octopus: A Framework for Cost-Quality-Time Optimization in Crowdsourcing <i class="rarr">&rarr;</i></span>
-                            <span class="pub-meta"><a href="https://arxiv.org/abs/1702.03488">Arxiv Preprint</a></span>
-                            <span class="pub-description">A complete solution to managing micro-tasks on crowdsourcing platforms.</span>
-                            <span class="pub-authors">Karan Goel, Shreya Rajpal and Mausam</span>
+                        <div class="pub-type" style="float:left;margin-right: 0%; background:rgba(126, 156, 244, 0.2);">
+                            <center style="font-size: 1.4rem; font-weight: 300; ">Workshop</center>
                         </div>
-                        <div class="pub">
+                        <div class="pub-type" style="float: left; background:rgba(126, 244, 156, 0.2);">
+                            <center style="font-size: 1.4rem; font-weight: 300;">Preprint</center>
+                        </div>
+                        </div>
+                        <div class="pub" style="border-right-color: rgba(126, 156, 244, 0.2);">
+                            <a target="_blank" href="http://teaching-machines.cc/nips2017/papers/nips17-teaching_paper-12.pdf">
+                            <span class="pub-title">Program2Tutor: Combining Automatic Curriculum Generation with Multi-Armed Bandits for Intelligent Tutoring Systems <i class="rarr">&rarr;</i></span>
+                            </a>
+                            <span class="pub-authors">Tong Mu, Karan Goel and Emma Brunskill</span>
+                            <span class="pub-meta">Workshop on Teaching Machines, Humans and Robots<br>NIPS 2017</span>
+                        </div>
+                        <div class="pub" style="border-right-color: rgba(126, 156, 244, 0.2);">
+                            <a target="_blank" href="https://drive.google.com/file/d/101FsZkczKMfGeUBTP-089mhkTeepj8IW/view">
+                            <span class="pub-title">Optimal Hierarchical Policy Extraction from Noisy Imperfect Demonstrations <i class="rarr">&rarr;</i></span>
+                            </a>
+                            <span class="pub-authors">Karan Goel, Tong Mu and Emma Brunskill</span>
+                            <span class="pub-meta">Hierarchical Reinforcement Learning Workshop & Deep Reinforcement Learning Symposium<br>NIPS 2017</span>
+                        </div>
+                        <div class="pub" style="border-right-color: rgba(126, 156, 244, 0.2);">
+                            <a target="_blank" href="https://drive.google.com/file/d/1wTdOEFW22w-ZXTyTSWw_fhfIZcX4Y2Yn/view">
+                            <span class="pub-title">Importance-Sampled Option Critic for More Sample-Efficient Reinforcement Learning <i class="rarr">&rarr;</i></span>
+                            </a>
+                            <span class="pub-authors">Karan Goel and Emma Brunskill</span>
+                            <span class="pub-meta">Hierarchical Reinforcement Learning Workshop & Deep Reinforcement Learning Symposium<br>NIPS 2017</span>
+                        </div>
+                        <div class="pub" style="border-right-color: rgba(126, 244, 156, 0.2);">
+                            <a target="_blank" href="https://arxiv.org/pdf/1601.02034.pdf">
                             <span class="pub-title">It's just a matter of perspectives: Crowd Powered Consensus Organization of Corpora <i class="rarr">&rarr;</i></span>
-                            <span class="pub-meta"><a href="https://arxiv.org/abs/1601.02034">Arxiv Preprint</a></span>
-                            <span class="pub-description">Creating a consensus clustering by explicitly disambiguating perspectives of different people.</span>
+                            </a>
                             <span class="pub-authors">Ayush Jain, Karan Goel, Joon Young-Seo, Andrew Kuznetsov, Aditya Parameswaran and Hari Sundaram</span>
+                            <span class="pub-meta">Arxiv</span>
                         </div>
-                        <div class="pub">
+                        <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.2);">
+                            <a target="_blank" href="https://arxiv.org/pdf/1702.03488.pdf">
+                            <span class="pub-title">Octopus: A Framework for Cost-Quality-Time Optimization in Crowdsourcing <i class="rarr">&rarr;</i></span>
+                            </a>
+                            <span class="pub-authors">Karan Goel, Shreya Rajpal and Mausam</span>
+                            <span class="pub-meta">HCOMP 2017</span>
+                        </div>
+                        <div class="pub" style="border-right-color: rgba(244, 126, 156, 0.2);">
+                            <a target="_blank" href="https://arxiv.org/pdf/1702.06238.pdf">
+                            <span class="pub-title">Sample Efficient Policy Search for Optimal Stopping Domains <i class="rarr">&rarr;</i></span>
+                            </a>
+                            <span class="pub-authors">Karan Goel, Christoph Dann and Emma Brunskill</span>
+                            <span class="pub-meta">RLDM 2017 & IJCAI 2017</span>
+                        </div>
+
+                        <div class="pub" style="border-right-color: rgba(126, 156, 244, 0.2);">
+                            <a target="_blank" href="http://www.crowdml.cc/icml2015/papers/CrowdML-Paper19.pdf">
                             <span class="pub-title">POMDP-Based Worker Pool Selection for Crowdsourcing <i class="rarr">&rarr;</i></span>
-                            <span class="pub-meta"><a href="http://www.crowdml.cc/icml2015/papers/CrowdML-Paper19.pdf">CrowdML Workshop at ICML 2015</a></span>
-                            <span class="pub-description">Routing tasks in a hybrid push-pull crowdsourcing setting to worker pools where workers have similar ability.</span>
-                            <span class="pub-authors">Shreya Rajpal*, Karan Goel* and Mausam</span>
+                            </a>
+                            <span class="pub-authors">Shreya Rajpal, Karan Goel and Mausam</span>
+                            <span class="pub-meta">CrowdML Workshop<br>ICML 2015</span>
                         </div>
                     </section>
                 </div>
@@ -111,16 +137,12 @@
             case 'ns':
                 ns.style.display = 'block';
                 nst.className = 'tab ns-tab active';
-                // or.style.display = 'none';
-                // ort.className = 'tab or-tab';
                 pb.style.display = 'none';
                 pbt.className = 'tab pb-tab';
                 break;
             case 'pb':
                 ns.style.display = 'none';
                 nst.className = 'tab ns-tab';
-                // or.style.display = 'none';
-                // ort.className = 'tab or-tab';
                 pb.style.display = 'block';
                 pbt.className = 'tab pb-tab active';
                 break;
