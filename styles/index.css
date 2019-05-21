@@ -27,6 +27,15 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
   margin-bottom: 2rem; }
 
+.logo {
+  /*width: 18rem;*/
+  /*height: auto;*/
+  border-radius: 0px;
+  /*box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);*/
+  margin-right: 3.5rem; 
+  /*margin-bottom: 2rem; */
+}
+
 .title {
   font-weight: 500;
   font-size: 3.2rem; }
